@@ -10,7 +10,7 @@ const PokeList = (props) => {
       </li>
     );
   });
-  return <ul className="pokeList prueba">{listItem}</ul>;
+  return <ul className="pokeList">{listItem}</ul>;
 };
 
 export default PokeList;
